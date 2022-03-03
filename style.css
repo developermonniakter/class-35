@@ -71,9 +71,6 @@ span{
     line-height: 2.7rem;
 }
     /* FEATURE-SECTION */
-.feature-section{
-
-}
 .feature-item{
     height: 300px;
     box-shadow: 2.5px 4.33px 30px 0 rgba(64,87,191,0.1);
@@ -125,8 +122,6 @@ span{
     border-radius: 5px;
 
 }
-.pricing-item h1{}
-.pricing-item h5{}
 .pricing-item ul{
     list-style: none;
     margin-left: 0;
@@ -146,8 +141,6 @@ span{
     width: 40px;
     display: inline-block;
 }
-.pricing-item ul li span{}
-.pricing-item-button{}
 .pricing-item-button a{
     border-color: #6278df;
     border-width: 2px;
@@ -175,7 +168,6 @@ span{
 .about-item{
     margin-top: 90px;
 }
-.about-item .card{}
 .about-item .card img{
     width: 130px;
     height: auto;
@@ -197,7 +189,55 @@ span{
 
     /* responsive-css */
 @media (max-width:992px) {
-    .about-text-left{
+    .about-text-left {
         margin-top: 0;
+    }
+    .about-text-left .lead {
+        font-size: 18px;
+        line-height: 1.7rem;
+    }
+    .pricing-item {
+        padding: 50px 0;
+    }
+}
+@media (max-width:768px) {
+    .silder-caption h4 {
+        margin-bottom: 25px;
+    }
+    .silder-caption h2 {
+        margin-bottom: 25px;
+        font-size: 25px;
+    }
+    .counter-number-item{
+        margin-bottom: 20px;
+    }
+    .about-text-left h1{
+        margin-bottom: 10px;
+    }
+    .about-text-left .lead {
+        font-size: 14px;
+        line-height: normal;
+    }
+    .pricing-item ul li {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .about-item{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width:576px) {
+   
+    .margin{
+        margin-bottom: 20px;
+    }
+    .counter-number-item{
+        text-align: center;
+    }
+    .about-text-left {
+        margin-bottom: 20px;
+    }
+    .margin-form{
+        margin-bottom: 20px;
     }
 }
